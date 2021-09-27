@@ -9,6 +9,11 @@ public class Donkey implements Tradable, Domesticatable{
     }
 
     @Override
+    public int getPrice() {
+        return this.price;
+    }
+
+    @Override
     public String sound() {
         return this.sound;
     }
