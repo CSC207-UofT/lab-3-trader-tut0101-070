@@ -8,7 +8,6 @@ public class Donkey implements Tradable, Domesticatable{
         this.sound = sound;
     }
 
-
     @Override
     public String sound() {
         return this.sound;
